@@ -11,21 +11,21 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+googleAnalytics = "UA-237419416-1"
 enableRobotsTXT = true
 enableGitInfo = false
-Paginate = 6
+Paginate = 99  # 99 turns off pagination.
 summaryLength  = "30"
 
 [Params]
 selfHosted = true
-mainSections = ["post","posts"]
+mainSections = []
 dateFormat = "2 January 2023"
 comments = false
 readingTime = false
 wordCount = false
 useHLJS = true
-socialShare = true
+socialShare = false
 delayDisqus = true
 showRelatedPosts = true
 summaryLength  = "9"
@@ -34,10 +34,10 @@ gcse = false
 lastmod = false
 rss = false
 pagination = "10"
-hideAuthor = false
+hideAuthor = true
 authorInfo = "She was born to be free, let her run wild in her own way and you will never lose her."
 description = "Your can add your website description here."
-previewCardImagePlacement = "bottom"
+previewCardImagePlacement = "top"
 
 [sitemap]
   changefreq = "monthly"
@@ -53,7 +53,7 @@ previewCardImagePlacement = "bottom"
   #youtube = "user/username" # or channel/channelname
   #twitter = "username"
   #threads = "username"
-  #linkedin = "username"
+  linkedin = "diego-alexander-mellizo-cañón-0a199985"
   #github = "username"
   #gitlab = "username"
   #bitbucket = "username"
@@ -76,26 +76,32 @@ previewCardImagePlacement = "bottom"
   #slack = "username"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "About me"
+    url = "/about-me/"
     weight = 1
 
 [[menu.main]]
-    name = "Notes"
-    url = "/notes/"
+    name = "Grading project"
+    url = "/grading-project/"
     weight = 2
 
 [[menu.main]]
-    name = "Tags"
-    url = "/tags/blog/"
+    name = "Professional projects"
+    url = "/professional-projects/"
     weight = 3
 
 [[menu.main]]
-    name = "Collections"
-    url = "/collections/"
+    name = "Personal projects"
+    url = "/personal-projects/"
     weight = 4
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Contact me"
+    url = "/contact-me/"
     weight = 5
+
+[module]
+[[module.imports]]
+path = 'github.com/hugomods/icons/vendors/mdi'
+[[module.imports]]
+path = 'github.com/hugomods/video-js'
