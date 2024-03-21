@@ -1,7 +1,7 @@
 baseURL = 'https://diegomellizo.com/'
 DefaultContentLanguage = "en"
 languageCode = 'en-us'
-title = 'Diego Mellizo - Game Developer'
+title = 'Diego Mellizo | Game Developer'
 theme = 'lightbi-hugo'
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -75,30 +75,59 @@ previewCardImagePlacement = "top"
   #weibo = "username"
   #slack = "username"
 
-[[menu.main]]
+[languages]
+[languages.en]
+contentDir = "content/en"
+languageName = "English"
+languageNameShort = "en"
+weight = 1
+[languages.es]
+contentDir = "content/es"
+languageName = "Spanish"
+languageNameShort = "es"
+weight = 2
+# Menus - English.
+[[languages.en.menus.main]]
     name = "About me"
     url = "/about-me/"
     weight = 1
-
-[[menu.main]]
-    name = "Grading project"
-    url = "/grading-project/"
+[[languages.en.menus.main]]
+    name = "Degree project"
+    url = "/degree-project/"
     weight = 2
-
-[[menu.main]]
-    name = "Professional projects"
+[[languages.en.menus.main]]
+    name = "Professional"
     url = "/professional-projects/"
     weight = 3
-
-[[menu.main]]
-    name = "Personal projects"
+[[languages.en.menus.main]]
+    name = "Personal"
     url = "/personal-projects/"
     weight = 4
-
-[[menu.main]]
+[[languages.en.menus.main]]
     name = "Contact me"
     url = "/contact-me/"
     weight = 5
+# Menus - Spanish.
+[[languages.es.menus.main]]
+name = "Acerca de mí"
+url = "/about-me/"
+weight = 1
+[[languages.es.menus.main]]
+name = "Proyecto de grado"
+url = "/degree-project/"
+weight = 2
+[[languages.es.menus.main]]
+name = "Profesional"
+url = "/professional-projects/"
+weight = 3
+[[languages.es.menus.main]]
+name = "Personal"
+url = "/personal-projects/"
+weight = 4
+[[languages.es.menus.main]]
+name = "Contáctame"
+url = "/contact-me/"
+weight = 5
 
 [module]
 [[module.imports]]

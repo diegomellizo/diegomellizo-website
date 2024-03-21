@@ -18,6 +18,25 @@ Or you can delete these file if you don't need it.
 -->
 
 <style>
+/* Overridden links color. */
+a {
+    color: #008aff;
+}
+
+/* Overridden highlighting color. */
+::-moz-selection {
+    color: white;
+    text-shadow: none;
+    background: orangered;
+}
+
+::selection {
+    color: white;
+    text-shadow: none;
+    background: orangered;
+}
+/* End of Overridden highlighting color. */
+
 /* Align HugoMods icons to vertical middle. */
 .hi-svg-inline {
     vertical-align: -0.125rem;
@@ -28,4 +47,24 @@ Or you can delete these file if you don't need it.
     filter: none;
     -webkit-filter: none;
 }
+
+/* Flags navigation. */
+.flagselect {
+    border: 2px solid #008aff;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+
+.flagnoselect {
+    padding: 0;
+    margin: 0;
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+/* End of Flags navigation. */
 </style>
