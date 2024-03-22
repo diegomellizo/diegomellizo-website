@@ -3,10 +3,17 @@
         <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
             <div class="card-body">
                 <h3 class="fw-bold post-title">{{ .Title }}</h3>
+
+                {{ if .Params.Subtitle }}
+                <h5 class="post-subtitle">
+                    {{ .Params.Subtitle }}
+                </h5>
+                {{ end }}
+
                 {{ if .Params.Collab }}
-                <h4 class="post-subtitle">
+                <h5 class="post-subtitle">
                     {{ .Params.Collab }}
-                </h4>
+                </h5>
                 {{ end }}
 
                 <div class="post-entry">

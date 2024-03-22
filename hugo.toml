@@ -92,42 +92,34 @@ weight = 2
     url = "/"
     weight = 1
 [[languages.en.menus.main]]
-    name = "Degree project"
-    url = "/degree-project/"
-    weight = 2
-[[languages.en.menus.main]]
     name = "Professional projects"
     url = "/professional-projects/"
-    weight = 3
+    weight = 2
 [[languages.en.menus.main]]
     name = "Personal projects"
     url = "/personal-projects/"
-    weight = 4
+    weight = 3
 [[languages.en.menus.main]]
     name = "Contact me"
     url = "/contact-me/"
-    weight = 5
+    weight = 4
 # Menus - Spanish.
 [[languages.es.menus.main]]
 name = "Inicio"
 url = "/"
 weight = 1
 [[languages.es.menus.main]]
-name = "Proyecto de grado"
-url = "/degree-project/"
-weight = 2
-[[languages.es.menus.main]]
 name = "Proyectos profesionales"
 url = "/professional-projects/"
-weight = 3
+weight = 2
 [[languages.es.menus.main]]
 name = "Proyectos personales"
 url = "/personal-projects/"
-weight = 4
+weight = 3
 [[languages.es.menus.main]]
 name = "Contáctame"
 url = "/contact-me/"
-weight = 5
+weight = 4
 
 [module]
 [[module.imports]]

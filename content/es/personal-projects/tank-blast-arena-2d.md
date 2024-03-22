@@ -2,7 +2,7 @@
 title: "Tank Blast Arena 2D"
 devDate: "2020 - 2021"
 cardImage: "/shared-l10n/personal-projects/card-images/tank-blast-arena-2d.jpg"
-weight: 1
+weight: 2
 ---
 
 #### 2017 - 2019
