@@ -88,19 +88,19 @@ languageNameShort = "es"
 weight = 2
 # Menus - English.
 [[languages.en.menus.main]]
-    name = "About me"
-    url = "/about-me/"
+    name = "Home"
+    url = "/"
     weight = 1
 [[languages.en.menus.main]]
     name = "Degree project"
     url = "/degree-project/"
     weight = 2
 [[languages.en.menus.main]]
-    name = "Professional"
+    name = "Professional projects"
     url = "/professional-projects/"
     weight = 3
 [[languages.en.menus.main]]
-    name = "Personal"
+    name = "Personal projects"
     url = "/personal-projects/"
     weight = 4
 [[languages.en.menus.main]]
@@ -109,19 +109,19 @@ weight = 2
     weight = 5
 # Menus - Spanish.
 [[languages.es.menus.main]]
-name = "Acerca de mí"
-url = "/about-me/"
+name = "Inicio"
+url = "/"
 weight = 1
 [[languages.es.menus.main]]
 name = "Proyecto de grado"
 url = "/degree-project/"
 weight = 2
 [[languages.es.menus.main]]
-name = "Profesional"
+name = "Proyectos profesionales"
 url = "/professional-projects/"
 weight = 3
 [[languages.es.menus.main]]
-name = "Personal"
+name = "Proyectos personales"
 url = "/personal-projects/"
 weight = 4
 [[languages.es.menus.main]]

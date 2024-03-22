@@ -9,7 +9,7 @@ weight: 1
 \
 {{< video-js src="/shared-l10n/personal-projects/videos/tank-blast-arena-2d.mp4" autoplay=false preload=false >}}
 
-{{< icons/icon vendor=mdi name=gamepad-variant >}} Play on [simmer.io](https://simmer.io/@MellizoGames/tank-blast-arena-2d)
+{{< icons/icon vendor=mdi name=gamepad-variant >}} Jugar en [simmer.io](https://simmer.io/@MellizoGames/tank-blast-arena-2d)
 
 {{< icons/icon vendor=mdi name=puzzle >}} **Género:** *Shooter* de tanques, vista *top-down* 2D.\
 {{< icons/icon vendor=mdi name=information >}} **Descripción:**
