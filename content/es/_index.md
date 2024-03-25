@@ -5,7 +5,7 @@ title: ""
 lastmod: "2024-03-05"  # This affects the .Site.LastChange
 ---
 
-![photo](/shared-l10n/about-me/images/photo.png)
+{{< figure src="/shared-l10n/about-me/images/photo.png" >}}
 
 ¡Hola! Soy Diego Mellizo, un desarrollador de videojuegos de Colombia.
 Me encanta usar software y tecnología para crear cosas asombrosas.

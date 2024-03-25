@@ -18,6 +18,43 @@ Or you can delete these file if you don't need it.
 -->
 
 <style>
+/* Overridden dark mode. */
+/* Note: This is done to prevent hue-rotate() and contrast() to alterate image and video colors. */
+:root[data-theme="dark"] {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+:root[data-theme="dark"] img,
+:root[data-theme="dark"] video,
+:root[data-theme="dark"] iframe,
+:root[data-theme="dark"] body [style*="background-image"] {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+:root[data-theme="dark"] p,
+:root[data-theme="dark"] h1,
+:root[data-theme="dark"] h2,
+:root[data-theme="dark"] h3,
+:root[data-theme="dark"] h4,
+:root[data-theme="dark"] h5,
+:root[data-theme="dark"] h6,
+:root[data-theme="dark"] .card-body div,
+:root[data-theme="dark"] footer li,
+:root[data-theme="dark"] a[type="button"],
+:root[data-theme="dark"] a[role="button"] {
+    filter: hue-rotate(180deg);
+    -webkit-filter: hue-rotate(180deg);
+}
+/* End of Overridden dark mode. */
+
+/* Fix: This prevents the videos in fullscreen to have their colors inverted when the dark mode is active. */
+:root[data-theme="dark"] video:fullscreen {
+    filter: none;
+    -webkit-filter: none;
+}
+
 /* Overridden links color. */
 a {
     color: #008aff;
@@ -42,14 +79,8 @@ a {
     vertical-align: -0.125rem;
 }
 
-/* Fix: This prevents the videos in fullscreen to have their colors inverted when the dark mode is active. */
-:root[data-theme="dark"] video:fullscreen {
-    filter: none;
-    -webkit-filter: none;
-}
-
 /* Flags navigation. */
-.flagselect {
+.flagselect img {
     border: 2px solid #008aff;
     border-radius: 10px;
     padding: 0;
@@ -59,7 +90,7 @@ a {
     top: 5px;
 }
 
-.flagnoselect {
+.flagnoselect img {
     padding: 0;
     margin: 0;
     width: 25px;

@@ -44,20 +44,24 @@
               {{ $siteLanguages := site.Languages}}
               {{ $pageLang := .Page.Lang}}
               {{- range .Page.AllTranslations }}
-              {{ $translation := . }}
-              {{- range sort $siteLanguages "Weight" "asc" }}
-              {{- if eq $translation.Lang .Lang }}
-              {{ if eq $pageLang .Lang}}
-              <a class="flagselect" href="{{ $translation.Permalink | relURL }}">
-                <img src="/images/lang-flags/{{ .Params.languageNameShort }}-flag.png"/>
-              </a>
-              {{ else }}
-              <a class="flagnoselect" href="{{ $translation.Permalink | relURL }}">
-                <img src="/images/lang-flags/{{ .Params.languageNameShort }}-flag.png"/>
-              </a>
-              {{ end }}
-              {{- end }}
-              {{- end }}
+                {{ $translation := . }}
+                {{- range sort $siteLanguages "Weight" "asc" }}
+                  {{- if eq $translation.Lang .Lang }}
+                    {{ if eq $pageLang .Lang}}
+                      <li class="nav-item">
+                        <a class="flagselect" href="{{ $translation.Permalink | relURL }}">
+                          <img src="/images/lang-flags/{{ .Params.languageNameShort }}-flag.png"/>
+                        </a>
+                      </li>
+                    {{ else }}
+                      <li class="nav-item">
+                        <a class="flagnoselect" href="{{ $translation.Permalink | relURL }}">
+                          <img src="/images/lang-flags/{{ .Params.languageNameShort }}-flag.png"/>
+                        </a>
+                      </li>
+                    {{ end }}
+                  {{- end }}
+                {{- end }}
               {{- end }}
 
               <li class="nav-item nav-link">
