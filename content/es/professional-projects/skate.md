@@ -19,4 +19,5 @@ Intenta saltar desde los bordes de la rampa para conseguir puntos extra y ten cu
 {{< icons/icon vendor=mdi name=hammer-wrench >}} **Desarrollado con:** Phaser.js, JavaScript, PHP y MySQL.\
 {{< icons/icon vendor=mdi name=target >}} **Plataforma objetivo:** Navegador web en PC y dispositivos móviles.
 
-{{< icons/icon vendor=mdi name=hand-heart >}} **Mi contribución:** Programación de mecánicas y tabla de clasificación.
+{{< icons/icon vendor=mdi name=hand-heart >}} **Mi contribución:**
+* Programación de mecánicas y tabla de clasificación.

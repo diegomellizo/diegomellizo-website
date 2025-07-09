@@ -10,15 +10,15 @@ weight: 1
 ### En colaboración con [Felipe López](https://felipeandreslopez.dev)
 #### 2014 - 2015
 \
-{{< icons/icon vendor=mdi name=puzzle >}} **Género:** Videojuego educativo, juego de rol o RPG (*Role-Playing Game*), mundo abierto.\
+{{< icons/icon vendor=mdi name=puzzle >}} **Género:** Videojuego educativo, *RPG* (*Role-Playing Game*; juego de rol), mundo abierto.\
 {{< icons/icon vendor=mdi name=information >}} **Descripción:**
 Herramienta de apoyo para la enseñanza de inglés a niños hablantes nativos de español en la escuela primaria.
 Se desarrolla en un ambiente medieval y cuenta la historia de Philip, un joven en un viaje para convertirse en Caballero Blanco.
 Cada misión del juego se la asigna a Philip un habitante de Ciudad Medieval diferente y cada una involucra un minijuego con su propia mecánica.
 Posee un sistema de diálogo (texto y audio) y un sistema de logro de misiones.
 
-{{< icons/icon vendor=mdi name=hammer-wrench >}} **Desarrollado con:** Unity/C#.\
-{{< icons/icon vendor=mdi name=target >}} **Plataforma objetivo:** PC/Windows 7.
+{{< icons/icon vendor=mdi name=hammer-wrench >}} **Desarrollado con:** Unity (C#).\
+{{< icons/icon vendor=mdi name=target >}} **Plataforma objetivo:** PC Windows.
 
 {{< figure src="/shared-l10n/personal-projects/images/01-philip-main-mission.jpg" caption="Misión principal: Habla con la princesa de Ciudad Medieval." >}}\
 {{< figure src="/shared-l10n/personal-projects/images/02-philip-mission1.jpg" caption="Misión 1: Recoge los hongos como se describe en la lista que te dieron." >}}\

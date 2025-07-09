@@ -17,8 +17,8 @@ It develops in a medieval environment and tells the story of Philip, a young man
 Every mission in the game is given to Philip by a different inhabitant of Medieval City and each one involves a mini-game with its own mechanics.
 It has a dialogue system (text and audio) and a quest achievement system.
 
-{{< icons/icon vendor=mdi name=hammer-wrench >}} **Developed with:** Unity/C#.\
-{{< icons/icon vendor=mdi name=target >}} **Target platform:** PC/Windows 7.
+{{< icons/icon vendor=mdi name=hammer-wrench >}} **Developed with:** Unity (C#).\
+{{< icons/icon vendor=mdi name=target >}} **Target platform:** Windows PC.
 
 {{< figure src="/shared-l10n/personal-projects/images/01-philip-main-mission.jpg" caption="Main mission: Talk to the Princess of Medieval City." >}}\
 {{< figure src="/shared-l10n/personal-projects/images/02-philip-mission1.jpg" caption="Mission 1: Collect the mushrooms as described on the list given to you." >}}\

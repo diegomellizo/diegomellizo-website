@@ -17,11 +17,11 @@ Multiplayer game supporting up to 20 concurrent users (CCU).
 Deathmatch mode, aka free-for-all.
 It includes AI-driven tanks (in gray color) to compensate for the absence of players.
 The map was built using layered tiles.
-Another features are:
+Other features are:
 * Basic personalization (player name and tank color).
 * Pickups (health, shield, laser and speed boost).
 * Mini-map.
 * Leaderboard.
 
-{{< icons/icon vendor=mdi name=hammer-wrench >}} **Developed with:** Unity/C# and Photon PUN 2 (multiplayer plugin).\
+{{< icons/icon vendor=mdi name=hammer-wrench >}} **Developed with:** Unity (C#) and Photon PUN 2 (multiplayer plugin).\
 {{< icons/icon vendor=mdi name=target >}} **Target platform:** Web browser on PC.

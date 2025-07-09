@@ -20,4 +20,5 @@ If you fail once, the game is over!
 {{< icons/icon vendor=mdi name=hammer-wrench >}} **Developed with:** Phaser.js, TypeScript, PHP and MySQL.\
 {{< icons/icon vendor=mdi name=target >}} **Target platform:** Web browser on PC and mobile devices.
 
-{{< icons/icon vendor=mdi name=hand-heart >}} **My contribution:** Programming of mechanics and leaderboard.
+{{< icons/icon vendor=mdi name=hand-heart >}} **My contribution:**
+* Programming of mechanics and leaderboard.

@@ -20,4 +20,5 @@ Si fallas una vez, ¡el juego se acaba!
 {{< icons/icon vendor=mdi name=hammer-wrench >}} **Desarrollado con:** Phaser.js, TypeScript, PHP y MySQL.\
 {{< icons/icon vendor=mdi name=target >}} **Plataforma objetivo:** Navegador web en PC y dispositivos móviles.
 
-{{< icons/icon vendor=mdi name=hand-heart >}} **Mi contribución:** Programación de mecánicas y tabla de clasificación.
+{{< icons/icon vendor=mdi name=hand-heart >}} **Mi contribución:**
+* Programación de mecánicas y tabla de clasificación.

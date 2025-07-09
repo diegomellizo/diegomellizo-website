@@ -2,7 +2,7 @@
 type : "tags"
 layout : ""
 title: ""
-lastmod: "2024-03-05"  # This affects the .Site.LastChange
+lastmod: "2025-07-02"  # This affects the .Site.LastChange
 ---
 
 {{< figure src="/shared-l10n/about-me/images/photo.png" >}}

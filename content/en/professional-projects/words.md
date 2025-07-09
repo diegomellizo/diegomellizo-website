@@ -20,4 +20,5 @@ You can also delete letters before you fill all the spaces, or skip a word to an
 {{< icons/icon vendor=mdi name=hammer-wrench >}} **Developed with:** Phaser.js, TypeScript, PHP and MySQL.\
 {{< icons/icon vendor=mdi name=target >}} **Target platform:** Web browser on PC and mobile devices.
 
-{{< icons/icon vendor=mdi name=hand-heart >}} **My contribution:** Programming of mechanics and leaderboard.
+{{< icons/icon vendor=mdi name=hand-heart >}} **My contribution:**
+* Programming of mechanics and leaderboard.

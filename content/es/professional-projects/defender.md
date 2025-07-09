@@ -11,7 +11,7 @@ weight: 3
 \
 {{< video-js src="/shared-l10n/professional-projects/videos/defender.mp4" autoplay=false preload=false >}}
 
-{{< icons/icon vendor=mdi name=puzzle >}} **Género:** *Tower defense*. Similar a *Plants vs. Zombies*.\
+{{< icons/icon vendor=mdi name=puzzle >}} **Género:** *Tower defense* ("defensa de torres"). Similar a *Plants vs. Zombies*.\
 {{< icons/icon vendor=mdi name=information >}} **Descripción:**
 Defiende tu tienda de algunos enemigos comunes de tu negocio, hazlo colocando gemas en los carriles, ellas convocarán personajes con superpoderes únicos para ayudarte a derrotar a los malos.
 ¡Para ganar debes permanecer intacto hasta que se acabe el tiempo!
@@ -19,4 +19,5 @@ Defiende tu tienda de algunos enemigos comunes de tu negocio, hazlo colocando ge
 {{< icons/icon vendor=mdi name=hammer-wrench >}} **Desarrollado con:** Phaser.js, JavaScript, PHP y MySQL.\
 {{< icons/icon vendor=mdi name=target >}} **Plataforma objetivo:** Navegador web en PC y dispositivos móviles.
 
-{{< icons/icon vendor=mdi name=hand-heart >}} **Mi contribución:** Programación de mecánicas y tabla de clasificación.
+{{< icons/icon vendor=mdi name=hand-heart >}} **Mi contribución:**
+* Programación de mecánicas y tabla de clasificación.

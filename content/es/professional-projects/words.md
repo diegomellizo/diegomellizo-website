@@ -11,7 +11,7 @@ weight: 10
 \
 {{< video-js src="/shared-l10n/professional-projects/videos/words.mp4" autoplay=false preload=false >}}
 
-{{< icons/icon vendor=mdi name=puzzle >}} **Género:** *Puzzle* de palabras.\
+{{< icons/icon vendor=mdi name=puzzle >}} **Género:** Rompecabezas de palabras.\
 {{< icons/icon vendor=mdi name=information >}} **Descripción:**
 Lee la pista en la parte superior y completa los espacios vacíos en el medio arrastrando letras desde las disponibles en la parte inferior.
 Completa tantas palabras como sea posible dentro del tiempo establecido.
@@ -20,4 +20,5 @@ También puedes borrar letras antes de llenar todos los espacios, o saltar una p
 {{< icons/icon vendor=mdi name=hammer-wrench >}} **Desarrollado con:** Phaser.js, TypeScript, PHP y MySQL.\
 {{< icons/icon vendor=mdi name=target >}} **Plataforma objetivo:** Navegador web en PC y dispositivos móviles.
 
-{{< icons/icon vendor=mdi name=hand-heart >}} **Mi contribución:** Programación de mecánicas y tabla de clasificación.
+{{< icons/icon vendor=mdi name=hand-heart >}} **Mi contribución:**
+* Programación de mecánicas y tabla de clasificación.

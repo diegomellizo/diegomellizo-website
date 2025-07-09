@@ -16,8 +16,8 @@ weight: 1
 The main mechanic is to spin the roulette and then complete a jigsaw puzzle of the selected vehicle.
 Designed to reinforce the auditory language development in children, it contains voice recordings in several languages that can be heard during the game.
 
-{{< icons/icon vendor=mdi name=hammer-wrench >}} **Developed with:** Unity/C# and Android plugin/Java.\
-{{< icons/icon vendor=mdi name=target >}} **Target platform:** {{< icons/icon vendor=mdi name=cellphone >}} Mobile devices/Android.
+{{< icons/icon vendor=mdi name=hammer-wrench >}} **Developed with:** Unity (C#) and Android plugin (Java).\
+{{< icons/icon vendor=mdi name=target >}} **Target platform:** {{< icons/icon vendor=mdi name=cellphone >}} Android mobile device.
 
 {{< icons/icon vendor=mdi name=hand-heart >}} **My contribution:**
-Programming of mechanics and connection to an external service (gaming platform) through an Android plugin.
+* Programming of mechanics and connection to an external service (gaming platform) through an Android plugin.
